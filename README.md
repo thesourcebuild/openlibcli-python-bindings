@@ -140,4 +140,4 @@ MIT License — see ['LICENSE'](LICENSE) file and source file headers.
 Muhammad Hassaan Shah
 
 - GitHub: [@thesourcebuild](https://github.com/thesourcebuild)
-- Project: [github.com/thesourcebuild/I:\openlibcli-project\openlibcli-python-bindings](https://github.com/thesourcebuild/I:\openlibcli-project\openlibcli-python-bindings)
+- Project: [github.com/thesourcebuild/openlibcli-python-bindings](https://github.com/thesourcebuild/openlibcli-python-bindings)
