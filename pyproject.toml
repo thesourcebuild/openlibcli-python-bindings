@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openlibcli"
+dynamic = ["version"]
+description = "Python bindings for the OpenLibCLI engine (C ctypes)"
+authors = [
+    { name = "Muhammad Hassaan Shah" },
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pyrefly]
+search-path = [
+    "src",
+    "examples",
+    "examples/win_linux/pipe",
+    "examples/win_linux/serial",
+    "examples/win_linux/telnet",
+    "examples/linux/unix_socket"
+]
