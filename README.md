@@ -92,7 +92,7 @@ For the complete, robust telnet server implementation featuring full Telnet prot
 ## Project Layout
 
 ```
-opencli-python/
+openlibcli-python-bindings/
 ├── Docs/                      Documentation files
 ├── examples/                  Example scripts demonstrating usage
 │   ├── linux/                 Linux-specific examples
