@@ -7,7 +7,7 @@ Thin [ctypes](https://docs.python.org/3/library/ctypes.html) wrapper around the
 
 ## Prerequisites
 
-- Python 3.10+
+- Python 3.8+
 - A C compiler (MSVC / MinGW-w64 for Windows, GCC/Clang for Linux/macOS)
 
 ## Build the C Extension
